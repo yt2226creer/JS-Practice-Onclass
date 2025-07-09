@@ -1,8 +1,14 @@
-var boolean = false;
-if(boolean){
- console.log("trueの処理");
- console.log(boolean);
+let first = 8;
+if(fisst => 10){
+ console.log(true);
 } else {
- console.log("falseの処理");
- console.log(boolean);
+    //1.ここで処理をいれてしまうと意図しないところでelse文が使われていると認識される//
+ console.log("数値が低いよ！");
 };
+
+const second = "Java";
+if(second === "JavaScript"){
+    console.log(true);
+}else{
+    console.log("名称が違うよ！");
+}
