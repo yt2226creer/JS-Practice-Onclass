@@ -1,4 +1,4 @@
-const first = "TOKYO";
+const first = "NAGANO";
 if(first === "TOKYO"){
     console.log(first);
 }else if(first === "OSAKA"){
