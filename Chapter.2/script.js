@@ -1,2 +1,2 @@
 var text = "JavaScript";
-console.log("JavaScript");
+console.log(text);
