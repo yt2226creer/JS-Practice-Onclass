@@ -1,4 +1,4 @@
-let first = 8;
+let first = 12;
 if(first <= 10){
  console.log(true);
 } else {
