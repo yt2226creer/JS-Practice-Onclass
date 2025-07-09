@@ -4,13 +4,13 @@ if(bar === true){
 }
 
 let var = 100;
-if(bar === true){
+if(bar === 100){
     console.log(var);
 }
 
 
 let non = "JavaScript";
-if(bar === true){
+if(non === true){
     console.log(non);
 }
 
