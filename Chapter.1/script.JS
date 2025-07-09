@@ -1,2 +1,2 @@
 
-document.getElementsByID('section-1').style.color = 'red';
+document.getElementsByID('section-1').style.color = 'green';
