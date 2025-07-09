@@ -1,5 +1,5 @@
 let first = 8;
-if(fisst <= 10){
+if(first <= 10){
  console.log(true);
 } else {
     //1.ここで処理をいれてしまうと意図しないところでelse文が使われていると認識される//
