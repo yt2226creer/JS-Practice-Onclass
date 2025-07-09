@@ -1,5 +1,5 @@
 let first = 1 ;
-console.log(first) ;
+console.log(first);
 
 //let second = "second"  ;
 //console.log(second) ;
