@@ -4,7 +4,7 @@ if(fisst <= 10){
 } else {
     //1.ここで処理をいれてしまうと意図しないところでelse文が使われていると認識される//
  console.log("数値が低いよ！");
-};
+}
 
 const second = "Java";
 if(second === "JavaScript"){
