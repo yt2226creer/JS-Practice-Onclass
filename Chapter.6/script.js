@@ -1,6 +1,6 @@
-const first = "TOKYO";
+let first = "TOKYO";
 if(first === TOKYO){
-    console.log(first);
+    console.log(true);
 }else if(first === OSAKA){
     console.log("第二都市");
 }else{
