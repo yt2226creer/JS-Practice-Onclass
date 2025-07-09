@@ -9,7 +9,7 @@ if(test === 100){
 }
 
 let non = "JavaScript";
-if(non === true){
+if(non === JavaScript){
     console.log(non);
 }
 
