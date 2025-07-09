@@ -3,14 +3,14 @@ if(bar === true){
     console.log(bar);
 }
 
-let bar = 100;
+let var = 100;
 if(bar === true){
-    console.log(bar);
+    console.log(var);
 }
 
 
-let bar = "JavaScript";
+let non = "JavaScript";
 if(bar === true){
-    console.log(bar);
+    console.log(non);
 }
 
