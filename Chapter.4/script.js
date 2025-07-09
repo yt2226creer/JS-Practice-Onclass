@@ -1,4 +1,5 @@
 const metalbirst = (lastDamage) => {
     return = lastDamage * 1.5 ;
-    console.log(50);
+    if(lastDamage === 50) ;
+    console.log(metalbirst);
 }
