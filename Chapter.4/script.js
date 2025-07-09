@@ -3,11 +3,10 @@ if(bar === true){
     console.log(bar);
 }
 
-let var = 100;
-if(bar === 100){
-    console.log(var);
+let test = 100;
+if(test === 100){
+    console.log(test);
 }
-
 
 let non = "JavaScript";
 if(non === true){
