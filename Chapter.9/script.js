@@ -22,13 +22,14 @@ const flag = true;
 const message = flag ? "true" : "false";
 console.log(message);
 
-
 }
 //2
 
-let value = 7; 
+
 
 if (value > 5) {
+  let value = 7; 
+
   console.log("true");
 } else if (value < 5) {
   console.log("false");
@@ -37,6 +38,7 @@ if (value > 5) {
 }
 
 //3項
+if (value > 5) {ß
 let value = 7;
 
 let message = value > 5
@@ -45,22 +47,27 @@ let message = value > 5
     ? "5より小さいので false の処理を実行します。"
     : "値はちょうど5です。";
 console.log(message);
-
+｝
 
 //3
 
-let value = 3;
+
 
 if (value < 5) {
+  let value = 3;
   console.log("5より小さいので true の処理を実行します。");
 } else {
   console.log("5未満ではないので false の処理を実行します。");
 }
+
+if (value < 5)｛
 const value = 3;
 
 const message = value < 5
   ? "5より小さいので true の処理を実行します。"
   : "5未満ではないので false の処理を実行します。";
+
+｝
 console.log(message);
 
 //3項
