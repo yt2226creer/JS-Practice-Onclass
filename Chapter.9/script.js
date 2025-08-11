@@ -12,38 +12,35 @@ console.log(resultText);
 //1
 const AA = false;
 if (AA) {
-  console.log("変数は true です。");
+  console.log("true");
 } else {
-  console.log("変数は false です。");
+  console.log("false");
 
 //3項
 const flag = true;
 
-const message = flag ? "変数は true です。" : "変数は false です。";
+const message = flag ? "true" : "false";
 console.log(message);
 
 
 }
 //2
 
-const value = 7; // 任意の数値（例：3や7など）
+const value = 7; 
 
 if (value > 5) {
-  console.log("5より大きいので true の処理を実行します。");
+  console.log("true");
 } else if (value < 5) {
-  console.log("5より小さいので false の処理を実行します。");
+  console.log("false");
 } else {
-  console.log("値はちょうど5です。");
+  console.log("5");
 }
 
 //3項
 const value = 7;
 
 const message = value > 5
-  ? "5より大きいので true の処理を実行します。"
-  : value < 5
-    ? "5より小さいので false の処理を実行します。"
-    : "値はちょうど5です。";
+  ? "true" : value < 5 ? "false" : " 5 ";
 console.log(message);
 
 
