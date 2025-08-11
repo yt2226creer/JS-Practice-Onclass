@@ -26,7 +26,7 @@ console.log(message);
 }
 //2
 
-const value = 7; 
+let value = 7; 
 
 if (value > 5) {
   console.log("true");
@@ -37,9 +37,9 @@ if (value > 5) {
 }
 
 //3項
-const value = 7;
+let value = 7;
 
-const message = value > 5
+let message = value > 5
   ? "5より大きいので true の処理を実行します。"
   : value < 5
     ? "5より小さいので false の処理を実行します。"
@@ -49,7 +49,7 @@ console.log(message);
 
 //3
 
-const value = 3;
+let value = 3;
 
 if (value < 5) {
   console.log("5より小さいので true の処理を実行します。");
@@ -68,7 +68,7 @@ console.log(message);
 
 
 //4
-const value = 12;
+let value = 12;
 
 if (value >= 10) {
   console.log("10以上なので true の処理を実行します。");
@@ -76,16 +76,16 @@ if (value >= 10) {
   console.log("10未満なので false の処理を実行します。");
 }
 //3項
-const value = 12;
+let value = 12;
 
-const message = value >= 10
+let message = value >= 10
   ? "10以上なので true の処理を実行します。"
   : "10未満なので false の処理を実行します。";
 console.log(message);
 
 
 //5
-const input = "テキストあり"; // または "", null, undefined を試してみてください
+let input = "テキストあり"; // または "", null, undefined を試してみてください
 
 if (input) {
   console.log("値が存在するので true の処理を実行します。");
@@ -94,9 +94,10 @@ if (input) {
 }
 //3項
 
-const input = "テキストあり"; // または "", null, undefined などを試す
 
-const message = input
+letinput = "テキストあり"; // または "", null, undefined などを試す
+
+let message = input
   ? "値が存在するので true の処理を実行します。"
   : "値が存在しないので false の処理を実行します。";
 console.log(message);
