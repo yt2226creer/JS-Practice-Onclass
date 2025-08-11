@@ -33,14 +33,17 @@ if (value > 5) {
 } else if (value < 5) {
   console.log("false");
 } else {
-  console.log("5");
+  console.log("値はちょうど5です。");
 }
 
 //3項
 const value = 7;
 
 const message = value > 5
-  ? "true" : value < 5 ? "false" : " 5 ";
+  ? "5より大きいので true の処理を実行します。"
+  : value < 5
+    ? "5より小さいので false の処理を実行します。"
+    : "値はちょうど5です。";
 console.log(message);
 
 
