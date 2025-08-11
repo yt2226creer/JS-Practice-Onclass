@@ -20,3 +20,14 @@ if(x >= y){
 if(x <= y){
     console.log(true);
 }
+
+
+
+const value = 7;
+
+const message = value > 5
+  ? "5より大きいので true の処理を実行します。"
+  : value < 5
+    ? "5より小さいので false の処理を実行します。"
+    : "値はちょうど5です。";
+console.log(message);
