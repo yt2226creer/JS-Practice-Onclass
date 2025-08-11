@@ -38,7 +38,7 @@ if (value > 5) {
 }
 
 //3項
-if (value > 5) {ß
+if (value > 5) ｛
 let value = 7;
 
 let message = value > 5
