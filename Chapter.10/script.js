@@ -13,14 +13,14 @@ const CarMaker =[
      share:"No.1",
     },
     {
-    name: "Ford",
-    from: "America",
+    name:"Ford",
+    from:"America",
     share:"No.10",
     },
     {
-     name: "Mercedeace",
+     name:"Mercedeace",
      from:"Germany",
      share:"NO.2",
     },
 ]
-console.log(CarMeaker.Ford);
+console.log(CarMaker.Ford);
