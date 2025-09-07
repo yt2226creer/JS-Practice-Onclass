@@ -7,17 +7,20 @@
 
 //3.
 const CarMaker =[
-    {name: "TOYOTA",
+    {
+     name: "TOYOTA",
      from: "Japan",
      share:"No.1",
     },
-    {name: "Ford",
+    {
+    name: "Ford",
     from: "America",
     share:"No.10",
     },
-    {name: "Mercedeace",
+    {
+     name: "Mercedeace",
      from:"Germany",
      share:"NO.2",
     },
-];
+]
 console.log{CarMeaker.Ford};
