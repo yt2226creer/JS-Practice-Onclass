@@ -20,5 +20,4 @@ const CarMaker =[
      share:"NO.2",
     },
 ];
-
 console.log{Carmeaker.Ford};
