@@ -1,2 +1,2 @@
-const fruits = [ "リンゴ" "バナナ" "イチゴ"];
+const fruits = [ "リンゴ" ,"バナナ" ,"イチゴ"];
 console.log(fruits);
