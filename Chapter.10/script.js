@@ -23,4 +23,4 @@ const CarMaker =[
      share:"NO.2",
     },
 ]
-console.log{CarMeaker.Ford};
+console.log(CarMeaker.Ford);
