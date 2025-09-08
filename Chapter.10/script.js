@@ -23,4 +23,4 @@ const CarMaker =[
      share:"NO.2",
     },
 ]
-console.log(CarMaker[0,2].name);
+console.log(CarMaker[0].name,CarMaker[2].name);
