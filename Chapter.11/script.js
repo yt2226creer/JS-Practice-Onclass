@@ -25,6 +25,6 @@ const teachers = [
 
 //1.
 const subjects = ["数学","理科","英語","家庭科"];
-for(let i=1; i < 4 ; i++){
+for(let i=1; 0 < i < 4 ; i++){
     console.log(subjects[i]);
 }
