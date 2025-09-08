@@ -20,3 +20,11 @@ const teachers = [
         for (const teacher of teachers)  { 
             console.log(teacher);
         }; 
+
+
+
+//1.
+const subject = ["数学","理科","英語","家庭科"];
+for(subject =1; subject<4 ; subject++){
+    console.log(subject);
+}
