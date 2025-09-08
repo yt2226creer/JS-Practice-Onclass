@@ -28,3 +28,12 @@ const subjects = ["数学","理科","英語","家庭科"];
 for(let i = 0;   i < 4 ; i++){
     console.log(subjects[i]);
 }
+
+//2.
+const brands = ["Ships","Beams","Dior","coach"];
+for (const brand of brands) {
+    console.log(brand);
+}
+
+//3.
+
