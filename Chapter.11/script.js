@@ -34,7 +34,7 @@ const countrys = ["Germany","Japan","USA","UK"];
 
 for (let i in countrys) {
     console.log(i);         
-    console.log(subject[i]); 
+    console.log(countrys[i]); 
 }
 
 //3.
