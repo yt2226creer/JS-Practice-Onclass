@@ -30,10 +30,16 @@ for(let i = 0;   i < 4 ; i++){
 }
 
 //2.
+const countrys = ["Germany","Japan","USA","UK"];
+
+for (let i in countrys) {
+    console.log(i);         
+    console.log(subject[i]); 
+}
+
+//3.
 const brands = ["Ships","Beams","Dior","coach"];
 for (const brand of brands) {
     console.log(brand);
 }
-
-//3.
 
