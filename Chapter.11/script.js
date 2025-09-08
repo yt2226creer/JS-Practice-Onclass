@@ -17,6 +17,6 @@ const teachers = [
             "社会", 
         } 
         ] 
-        for (teacherof teachers)  { 
+        for (const teacher of teachers)  { 
             console.log(teacher);
         }; 
